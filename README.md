@@ -1,3 +1,9 @@
+# 👋 Hi Skunch
+This is the github profile you can check in on. We're building in public as a way to show off what we do and explain the process. If you'd like to see the current build (remember, we're still in progress!) then you can check out skunch.vercel.app.
+
+# 👋 Other Devs
+This is a project underway for the local Lexington band "Skunch". They're awesome! This is a collaborative project for both myself and cnl-95 to work on. We have a lot of ambitious stuff planned like a limited forum project integrated with the blog aspect of the site, a Strapi CMS for the band to use, and React-Spring for animations. Skunch is going for a retro 90's look in the About section. They've got a very distinct style in all their marketing, so we hope we can live up to their design. 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
