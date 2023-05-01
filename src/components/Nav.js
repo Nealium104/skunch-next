@@ -64,7 +64,7 @@ export default function Nav() {
                             <Link href='/' className="block py-2 px-4 text-sm hover:bg-gray-200 text-center">Home</Link>
                             <Link href='/about/' className="block py-2 px-4 text-sm hover:bg-gray-200 text-center">About</Link>
                             <Link href='/archive/' className="block py-2 px-4 text-sm hover:bg-gray-200 text-center">Archive</Link>
-                            <Link href='/merch/' className="block py-2 px-4 text-sm hover:bg-gray-200 text-center">Merch</Link>
+                            <Link href='/merch/' className="block py-2 px-4 text-sm hover:bg-gray-400 text-center">Merch</Link>
                         </div>
             </div>
 
