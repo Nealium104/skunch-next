@@ -1,6 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  daisyui: {
+    styled: true,
+    themes: [
+      {
+        mytheme: {
+          "primary": "#C90202",  // Red
+          "secondary": "#EEEEEE",  // White
+          "accent": "#000000",  // Black
+          "neutral": "#333333",  // Dark gray
+          "base-100": "#CCCCCC",  // Light gray
+          "info": "#3498DB",  // Blue
+          "success": "#27AE60",  // Green
+          "warning": "#F39C12",  // Orange
+          "error": "#E74C3C"  // Reddish-orange
+        },
+      },
+    ],
+    base: true,
+    utils: true,
+    logs: true,
+    rtl: false,
+    prefix: "",
+    darkTheme: "cupcake",
+  },
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -12,8 +36,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'nero': "#1e1e1e",
-        'afWhite': '#eeeeee',
         custom: {
 
         }
