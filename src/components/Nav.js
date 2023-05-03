@@ -70,6 +70,7 @@ export default function Nav() {
             </ul>
           </div>
           <div className="navbar-end">
+            <a href="/api/auth/login">Login</a>
             <a className="btn bg-primary border-none">Buy our Shit</a>
           </div>
         </div>
