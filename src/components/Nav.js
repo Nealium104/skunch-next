@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { useUser } from '@auth/nextjs-auth0/client'
+import { useUser } from '@auth0/nextjs-auth0/client'
 
 export default function Nav() {
   const btnRef = useRef(null);
