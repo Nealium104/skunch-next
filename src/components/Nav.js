@@ -56,23 +56,23 @@ export default function Nav() {
           {/* Desktop Menu */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
-              <li><Link href="/about">The Band</Link></li>
-              <li tabIndex={0}>
+              <li><Link href="/about" className='hover:text-primary'>The Band</Link></li>
+              <li tabIndex={0} className='hover:text-primary'>
                 <a>
                   Shows
                   <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                 </a>
-                <ul className="p-2 bg-base-100/75">
-                  <li><Link href="/upcoming">Upcoming</Link></li>
-                  <li><Link href="/archive">Archive</Link></li>
+                <ul className="p-2 bg-base-100/75 z-10">
+                  <li className='text-black hover:text-primary'><Link href="/upcoming">Upcoming</Link></li>
+                  <li className='text-black hover:text-primary'><Link href="/archive">Archive</Link></li>
                 </ul>
               </li>
-              <li><Link href="/merch">Merch</Link></li>
+              <li className='hover:text-primary'><Link href="/merch">Merch</Link></li>
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-ghost" href="/api/auth/login">Login</a>
-            <a className="btn bg-primary border-none">Buy our Shit</a>
+            <a className="btn btn-ghost hover:text-primary" href="/api/auth/login">Login</a>
+            <a className="btn bg-primary border-none hover:text-primary">Buy our Shit</a>
           </div>
         </div>
       </>
