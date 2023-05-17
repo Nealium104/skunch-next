@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useUser } from '@auth0/nextjs-auth0/client'
 
 export default function Nav() {
@@ -51,7 +52,7 @@ export default function Nav() {
                 <li><Link href="/merch/">Merch</Link></li>
               </ul>
             </div>
-            <Link href='/' className="btn btn-ghost normal-case text-xl">Skunch Logo</Link>
+              <Link href='/' className="btn btn-ghost normal-case text-xl"><Image src='/images/logoWords.png' height={160} width={90}/></Link>
           </div>
           {/* Desktop Menu */}
           <div className="navbar-center hidden lg:flex">
