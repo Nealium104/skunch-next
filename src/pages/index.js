@@ -14,32 +14,29 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main>
-        <div className='md:flex mx-auto items-center'>
-          <div className='flex items-center'>
+      <main className=''>
+        <div className=''>
+          <div className='md:flex'>
             <Image
-              className="mx-10"
-              src="/images/skunchFrontReduced.jpg"
+              className="object-contain w-screen md:w-1/2 md:col-span-2 border-8 border-white"
+              src="/images/skunchFront.jpg"
               alt="Skunch in a sick pose"
               height={500}
               width={500}
             />
-            <div className="text-5xl text-primary">
-            <div className='flex-col items-center justify-center'>
-              <h2>This is</h2>
-              <div className=''>
-                <Image src='/images/logo.png' height={400} width={400} />
+            <div className="md:w-1/2 flex flex-col items-center">
+              <div className='p-10 border-2 border-white'>
+                  <Image src='/images/logo.png' height={400} width={400} />
               </div>
-              </div>
-                <p className='text-white text-lg w-1/2 h-20 bg-opacity-70 bg-black rounded-md'>
-                  Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike.
-                </p>
-              </div>
+              <p className='p-10 text-xl border-8 border-white bg-black/75 text-white/75'>
+                Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike.
+              </p>
             </div>
-            </div>
+          </div>
+        </div>
         <div className="flex flex-col justify-between text-center md:flex-row">
-          <iframe className="bg-[#282828] md:w-1/3 md:h-1/2 py-5 my-5 mx-auto" src="https://open.spotify.com/embed/track/0s8wlLadanezwfSW5s4MgU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-          <div className='md:w-1/3 text-xl py-5'>
+          <iframe className="bg-[#282828] w-3/4 md:w-1/3 place-self-center my-10" src="https://open.spotify.com/embed/track/0s8wlLadanezwfSW5s4MgU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <div className='md:w-1/3 text-xl py-5 border-8 border-white'>
             <h3>Upcoming Shows:</h3>
             <li>
               <ul>Example</ul>
@@ -49,7 +46,7 @@ export default function Home() {
               <ul>Example</ul>
             </li>
           </div>
-        <p className='bg-neutral/25 md:w-1/3 text-xl py-5'>Here's some placeholder text - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis in accusantium, veniam sint architecto quod? Voluptatibus omnis doloremque quidem quibusdam. Doloribus eveniet quasi unde omnis neque saepe, consectetur dicta?</p>
+        <p className='bg-neutral/25 md:w-1/3 text-xl p-10 border-8 border-white'>Here's some placeholder text - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis in accusantium, veniam sint architecto quod? Voluptatibus omnis doloremque quidem quibusdam. Doloribus eveniet quasi unde omnis neque saepe, consectetur dicta?</p>
         </div>
       </main>
       <Footer />

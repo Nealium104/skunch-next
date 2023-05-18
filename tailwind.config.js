@@ -10,7 +10,8 @@ module.exports = {
           "secondary": "#EEEEEE",  // White
           "accent": "#000000",  // Black
           "neutral": "#333333",  // Dark gray
-          "base-100": "#CCCCCC",  // Light gray
+          "base-100": "#FFFFFF",  // Light gray
+          "base-200": "#CCCCCC", // White
           "info": "#3498DB",  // Blue
           "success": "#27AE60",  // Green
           "warning": "#F39C12",  // Orange
