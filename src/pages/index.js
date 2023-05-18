@@ -25,7 +25,7 @@ export default function Home() {
               width={500}
             />
             <div className="md:w-1/2 flex flex-col items-center">
-              <div className='p-10 border-2 border-white'>
+              <div className='p-10 border-8 border-white bg-base-200'>
                   <Image src='/images/logo.png' height={400} width={400} />
               </div>
               <p className='p-10 text-xl border-8 border-white bg-black/75 text-white/75'>
