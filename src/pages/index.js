@@ -39,11 +39,11 @@ export default function Home() {
           <div className='md:w-1/3 text-xl py-5 border-8 border-white'>
             <h3>Upcoming Shows:</h3>
             <li>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
+              <ul>Example.</ul>
+              <ul>Example.</ul>
+              <ul>Example.</ul>
+              <ul>Example.</ul>
+              <ul>Example.</ul>
             </li>
           </div>
         <p className='bg-neutral/25 md:w-1/3 text-xl p-10 border-8 border-white'>Here's some placeholder text - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis in accusantium, veniam sint architecto quod? Voluptatibus omnis doloremque quidem quibusdam. Doloribus eveniet quasi unde omnis neque saepe, consectetur dicta?</p>
