@@ -31,6 +31,8 @@ export default function Nav() {
     return (
       <>
       {/* Mobile Menu */}
+      <Link href='/' className="normal-case text-xl"><Image src='/images/logoWords.png' height={320} width={180}/></Link>
+
         <div className="navbar text-black">
           <div className="navbar-start">
             <div className="dropdown">
@@ -52,10 +54,10 @@ export default function Nav() {
                 <li><Link href="/merch/">Merch</Link></li>
               </ul>
             </div>
-              <Link href='/' className="btn btn-ghost normal-case text-xl"><Image src='/images/logoWords.png' height={160} width={90}/></Link>
+              
           </div>
           {/* Desktop Menu */}
-          <div className="navbar-center hidden lg:flex text-xl font-medium">
+          <div className="navbar-center hidden lg:flex text-xl font-medium py-5">
             <ul className="menu menu-horizontal px-1">
               <li><Link href="/about" className='hover:text-primary'>The Band</Link></li>
               <li tabIndex={0} className='hover:text-primary'>
@@ -72,8 +74,8 @@ export default function Nav() {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-ghost hover:text-primary" href="/api/auth/login">Login</a>
-            <a className="btn bg-primary border-none hover:text-primary">Buy our Shit</a>
+            <a className="btn btn-ghost hover:text-primary px-10" href="/api/auth/login">Login</a>
+          
           </div>
         </div>
       </>
