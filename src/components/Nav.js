@@ -31,7 +31,7 @@ export default function Nav() {
     return (
       <>
       {/* Mobile Menu */}
-        <div className="navbar bg-base-200 text-black">
+        <div className="navbar text-black">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -55,7 +55,7 @@ export default function Nav() {
               <Link href='/' className="btn btn-ghost normal-case text-xl"><Image src='/images/logoWords.png' height={160} width={90}/></Link>
           </div>
           {/* Desktop Menu */}
-          <div className="navbar-center hidden lg:flex">
+          <div className="navbar-center hidden lg:flex text-xl font-medium">
             <ul className="menu menu-horizontal px-1">
               <li><Link href="/about" className='hover:text-primary'>The Band</Link></li>
               <li tabIndex={0} className='hover:text-primary'>
