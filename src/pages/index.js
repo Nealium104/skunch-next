@@ -29,7 +29,7 @@ export default function Home() {
                   <Image src='/images/logo.png' height={400} width={400} />
               </div>
               <p className='p-10 text-xl border-8 border-white bg-black/75 text-white/75'>
-                Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike.
+                Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike. wsdfsdfsdf
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className='md:w-1/3 text-xl py-5 border-8 border-white'>
             <h3>Upcoming Shows:</h3>
             <li>
-              <ul>Example.</ul>
+              <ul>Example. sdfsdfsdf</ul>
               <ul>Example.</ul>
               <ul>Example.</ul>
               <ul>Example.</ul>
