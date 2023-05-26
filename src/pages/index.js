@@ -33,14 +33,14 @@ export default function Home() {
 
             
           
-          <p className='py-20 text-xl border-8 border-white text-black/75 w-3/6 indent-10'>
-                <center>
+          <p className='py-10 text-xl text-black/75 w-9/12 indent-20 text-center'>
+                
                 Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike.      
                 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sapien libero, facilisis non ante vel, lobortis iaculis tortor. Aliquam pellentesque eu erat luctus dignissim. Mauris quam ipsum, pulvinar ut blandit eget, porttitor at lorem. Pellentesque porttitor a velit vel lobortis. Quisque euismod, nulla non pellentesque finibus, tellus massa mollis mauris, non commodo dolor massa ac lacus. Phasellus ultrices volutpat ipsum aliquet iaculis. Donec mauris sem, tincidunt a turpis in, pellentesque tincidunt neque.
          
                 Sed cursus consequat nisi vel vehicula. Vivamus iaculis urna eget metus consectetur, eu blandit mi mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque eu sodales erat. Nulla tempor, urna vel finibus facilisis, risus purus venenatis velit, fringilla cursus felis enim at libero. Fusce placerat dolor gravida lacus rutrum efficitur. Aliquam erat volutpat. Suspendisse potenti. Vestibulum pellentesque lacinia urna eu vulputate. Fusce turpis mauris, pellentesque non pharetra a, interdum accumsan elit.
-              </center>  
+              
               </p>
 
             </div>
