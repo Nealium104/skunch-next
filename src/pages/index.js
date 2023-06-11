@@ -14,39 +14,40 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <main className=''>
-        <div className=''>
-          <div className='md:flex'>
+      <main className='flex flex-row overflow-x-scroll'>
+        <div className='min-w-max'>
+          <div className='flex'>
             <Image
-              className="object-contain w-screen md:w-1/2 md:col-span-2 border-8 border-white"
+              className="object-contain h-screen max-w-screen-sm border-8 border-white"
               src="/images/skunchFront.jpg"
               alt="Skunch in a sick pose"
               height={500}
               width={500}
             />
-            <div className="md:w-1/2 flex flex-col items-center">
-              <div className='p-10 border-8 border-white bg-base-200'>
+            <div className="flex flex-col w-screen max-w-screen-sm justify-center items-center">
+              <div className='p-10 border-8 border-white bg-primary w-full flex'>
+              <a className="mx-auto" href="https://www.linktr.ee/skunch">
                   <Image src='/images/logo.png' height={400} width={400} />
+              </a>
               </div>
-              <p className='p-10 text-xl border-8 border-white bg-black/75 text-white/75'>
+              <p className='p-10 text-xl border-8 border-white bg-black/75 text-white/75 whitespace-normal'>
                 Skunch is a high-energy grunge/rock n roll band that will get your head banging with heavy guitar riffs and gritty vocals. Their raw and rebellious sound is sure to appeal to fans of classic and modern rock alike.
               </p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between text-center md:flex-row">
-          <iframe className="bg-[#282828] w-3/4 md:w-1/3 place-self-center my-10" src="https://open.spotify.com/embed/track/0s8wlLadanezwfSW5s4MgU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-          <div className='md:w-1/3 text-xl py-5 border-8 border-white'>
+        <div className="min-w-max max-w-screen-sm">
+          <iframe className="bg-[#282828] w-screen max-w-screen-sm place-self-center my-10 border-8 border-white h-1/2" src="https://open.spotify.com/embed/track/0s8wlLadanezwfSW5s4MgU?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          <div className='w-screen max-w-screen-sm text-3xl text-center py-5 bg-base-200 border-8 border-white'>
             <h3>Upcoming Shows:</h3>
-            <li>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
-              <ul>Example</ul>
-            </li>
+            <ul>
+              <li>Example</li>
+              <li>Example</li>
+              <li>Example</li>
+              <li>Example</li>
+              <li>Example</li>
+            </ul>
           </div>
-        <p className='bg-neutral/25 md:w-1/3 text-xl p-10 border-8 border-white'>Here's some placeholder text - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veritatis in accusantium, veniam sint architecto quod? Voluptatibus omnis doloremque quidem quibusdam. Doloribus eveniet quasi unde omnis neque saepe, consectetur dicta?</p>
         </div>
       </main>
       <Footer />
